@@ -28,7 +28,7 @@ require (
 	github.com/juju/utils v0.0.0-20180820210520-bf9cc5bdd62d // indirect
 	github.com/juju/version v0.0.0-20180108022336-b64dbd566305 // indirect
 	github.com/kkdai/bstream v0.0.0-20181106074824-b3251f7901ec
-	github.com/mraksoll4/neutrino v0.0.0-20190321023416-6dac90b98052
+	github.com/mraksoll4/neutrino v1.0.0
 	github.com/mraksoll4/lightning-onion v1.0.0
 	github.com/mraksoll4/lnd/queue v1.0.1
 	github.com/mraksoll4/lnd/ticker v1.0.0
