@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/go-errors/errors"
 )
 

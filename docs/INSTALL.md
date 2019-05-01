@@ -220,7 +220,7 @@ make btcd
 ```
 
 Alternatively, you can install [`btcd` directly from its
-repo](https://github.com/btcsuite/btcd).
+repo](https://github.com/mraksoll4/btcd).
 
 ### Starting btcd
 
@@ -409,7 +409,7 @@ of your `sendpayment` commands.
 
 There are currently two primary ways to run `lnd`: one requires a local `btcd`
 instance with the RPC service exposed, and the other uses a fully integrated
-light client powered by [neutrino](https://github.com/lightninglabs/neutrino).
+light client powered by [neutrino](https://github.com/mraksoll4/neutrino).
 
 # Creating an lnd.conf (Optional)
 

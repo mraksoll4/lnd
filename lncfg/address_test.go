@@ -8,7 +8,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/mraksoll4/btcd/btcec"
 )
 
 // addressTest defines a test vector for an address that contains the non-

@@ -3,7 +3,7 @@ package lnwire
 import (
 	"testing"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/mraksoll4/btcutil"
 )
 
 func TestMilliSatoshiConversion(t *testing.T) {
