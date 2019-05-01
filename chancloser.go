@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/mraksoll4/btcd/txscript"
+	"github.com/mraksoll4/btcd/wire"
+	"github.com/mraksoll4/btcutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/htlcswitch"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 var (
@@ -413,10 +413,10 @@ func (c *channelCloser) ProcessCloseMsg(msg lnwire.Message) ([]lnwire.Message, b
 		// we can broadcast it to the network.
 		matchingSig := c.priorFeeOffers[remoteProposedFee].Signature
 		localSigBytes := matchingSig.ToSignatureBytes()
-		localSig := append(localSigBytes, byte(txscript.SigHashAll))
+		localSig := append(localSigBytes, byte(txscript.SigHashAll|txscript.SigHashForkID))
 
 		remoteSigBytes := closeSignedMsg.Signature.ToSignatureBytes()
-		remoteSig := append(remoteSigBytes, byte(txscript.SigHashAll))
+		remoteSig := append(remoteSigBytes, byte(txscript.SigHashAll|txscript.SigHashForkID))
 
 		closeTx, _, err := c.cfg.channel.CompleteCooperativeClose(
 			localSig, remoteSig, c.localDeliveryScript,

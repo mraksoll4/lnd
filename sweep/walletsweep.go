@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/mraksoll4/btcd/txscript"
+	"github.com/mraksoll4/btcd/wire"
+	"github.com/mraksoll4/btcutil"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/lnwallet"
 )
 
 const (
@@ -225,7 +225,7 @@ func CraftSweepAllTx(feeRate lnwallet.SatPerKWeight, blockHeight uint32,
 		// the sweeper via the witness generation function.
 		signDesc := &input.SignDescriptor{
 			Output:   outputInfo,
-			HashType: txscript.SigHashAll,
+			HashType: txscript.SigHashAll|txscript.SigHashForkID,
 		}
 
 		pkScript := outputInfo.PkScript

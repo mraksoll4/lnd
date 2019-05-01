@@ -10,19 +10,19 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/txsort"
+	"github.com/mraksoll4/btcd/blockchain"
+	"github.com/mraksoll4/btcd/btcec"
+	"github.com/mraksoll4/btcd/chaincfg/chainhash"
+	"github.com/mraksoll4/btcd/txscript"
+	"github.com/mraksoll4/btcd/wire"
+	"github.com/mraksoll4/btcutil"
+	"github.com/mraksoll4/btcutil/txsort"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/keychain"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/shachain"
 )
 
 const (
@@ -733,7 +733,7 @@ func (l *LightningWallet) handleContributionMsg(req *addContributionMsg) {
 	pendingReservation.ourFundingInputScripts = make([]*input.Script, 0,
 		len(ourContribution.Inputs))
 	signDesc := input.SignDescriptor{
-		HashType:  txscript.SigHashAll,
+		HashType:  txscript.SigHashAll | txscript.SigHashForkID,
 		SigHashes: txscript.NewTxSigHashes(fundingTx),
 	}
 	for i, txIn := range fundingTx.TxIn {
@@ -863,7 +863,7 @@ func (l *LightningWallet) handleContributionMsg(req *addContributionMsg) {
 		WitnessScript: witnessScript,
 		KeyDesc:       ourKey,
 		Output:        multiSigOut,
-		HashType:      txscript.SigHashAll,
+		HashType:      txscript.SigHashAll | txscript.SigHashForkID,
 		SigHashes:     txscript.NewTxSigHashes(theirCommitTx),
 		InputIndex:    0,
 	}
@@ -1030,7 +1030,7 @@ func (l *LightningWallet) handleFundingCounterPartySigs(msg *addCounterPartySigs
 	channelValue := int64(res.partialState.Capacity)
 	hashCache := txscript.NewTxSigHashes(commitTx)
 	sigHash, err := txscript.CalcWitnessSigHash(witnessScript, hashCache,
-		txscript.SigHashAll, commitTx, 0, channelValue)
+		txscript.SigHashAll|txscript.SigHashForkID, commitTx, 0, channelValue)
 	if err != nil {
 		msg.err <- err
 		msg.completeChan <- nil
@@ -1177,7 +1177,7 @@ func (l *LightningWallet) handleSingleFunderSigs(req *addSingleFunderSigsMsg) {
 	}
 
 	sigHash, err := txscript.CalcWitnessSigHash(witnessScript, hashCache,
-		txscript.SigHashAll, ourCommitTx, 0, channelValue)
+		txscript.SigHashAll|txscript.SigHashForkID, ourCommitTx, 0, channelValue)
 	if err != nil {
 		req.err <- err
 		req.completeChan <- nil
@@ -1215,7 +1215,7 @@ func (l *LightningWallet) handleSingleFunderSigs(req *addSingleFunderSigsMsg) {
 			PkScript: p2wsh,
 			Value:    channelValue,
 		},
-		HashType:   txscript.SigHashAll,
+		HashType:   txscript.SigHashAll | txscript.SigHashForkID,
 		SigHashes:  txscript.NewTxSigHashes(theirCommitTx),
 		InputIndex: 0,
 	}
