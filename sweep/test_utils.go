@@ -8,8 +8,8 @@ import (
 
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/input"
+	"github.com/mraksoll4/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/input"
 )
 
 var (

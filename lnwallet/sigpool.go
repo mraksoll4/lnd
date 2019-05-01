@@ -7,8 +7,8 @@ import (
 
 	"github.com/mraksoll4/btcd/btcec"
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 const (

@@ -4,10 +4,10 @@ import (
 	"net"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lnd/brontide"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtserver"
+	"github.com/mraksoll4/lnd/brontide"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/watchtower/wtdb"
+	"github.com/mraksoll4/lnd/watchtower/wtserver"
 )
 
 // DB abstracts the required database operations required by the watchtower

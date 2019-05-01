@@ -1,5 +1,5 @@
-PKG := github.com/lightningnetwork/lnd
-ESCPKG := github.com\/lightningnetwork\/lnd
+PKG := github.com/mraksoll4/lnd
+ESCPKG := github.com\/mraksoll4\/lnd
 
 BTCD_PKG := github.com/mraksoll4/btcd
 GOVERALLS_PKG := github.com/mattn/goveralls

@@ -3,7 +3,7 @@ package chainview
 import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/mraksoll4/lnd/channeldb"
 )
 
 // FilteredChainView represents a subscription to a certain subset of the

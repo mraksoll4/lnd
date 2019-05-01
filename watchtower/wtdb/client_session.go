@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/mraksoll4/lnd/keychain"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/watchtower/wtpolicy"
 )
 
 var (

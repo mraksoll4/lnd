@@ -17,15 +17,15 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/go-errors/errors"
 
-	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/multimutex"
-	"github.com/lightningnetwork/lnd/routing/chainview"
-	"github.com/lightningnetwork/lnd/zpay32"
+	sphinx "github.com/mraksoll4/lightning-onion"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/htlcswitch"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/multimutex"
+	"github.com/mraksoll4/lnd/routing/chainview"
+	"github.com/mraksoll4/lnd/zpay32"
 )
 
 const (

@@ -2,11 +2,11 @@ package htlcswitch
 
 import (
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/invoices"
+	"github.com/mraksoll4/lnd/lnpeer"
+	"github.com/mraksoll4/lnd/lntypes"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 // InvoiceDatabase is an interface which represents the persistent subsystem

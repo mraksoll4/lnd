@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwallet"
 )
 
 // TestFeeRateTypes checks that converting fee rates between the

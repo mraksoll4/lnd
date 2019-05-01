@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/lntypes"
+	"github.com/mraksoll4/lnd/lnwallet"
 )
 
 type mockSigner struct {

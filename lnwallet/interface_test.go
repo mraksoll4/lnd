@@ -32,14 +32,14 @@ import (
 	"github.com/coreos/bbolt"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/mraksoll4/neutrino"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/chainntnfs/btcdnotify"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/btcwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/chainntnfs/btcdnotify"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/keychain"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwallet/btcwallet"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 var (

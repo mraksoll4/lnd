@@ -1,1 +1,1 @@
-module github.com/lightningnetwork/lnd/ticker
+module github.com/mraksoll4/lnd/ticker

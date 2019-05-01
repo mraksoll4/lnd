@@ -1,5 +1,5 @@
-module github.com/lightningnetwork/lnd/queue
+module github.com/mraksoll4/lnd/queue
 
-require github.com/lightningnetwork/lnd/ticker v1.0.0
+require github.com/mraksoll4/lnd/ticker v1.0.0
 
-replace github.com/lightningnetwork/lnd/ticker v1.0.0 => ../ticker
+replace github.com/mraksoll4/lnd/ticker v1.0.0 => ../ticker

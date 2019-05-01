@@ -10,9 +10,9 @@ import (
 
 	"github.com/mraksoll4/btcd/btcec"
 	"github.com/mraksoll4/btcd/txscript"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/watchtower/blob"
 )
 
 func makePubKey(i uint64) blob.PubKey {

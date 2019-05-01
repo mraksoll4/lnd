@@ -9,12 +9,12 @@ import (
 
 	"github.com/mraksoll4/btcd/chaincfg"
 	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/lightningnetwork/lnd/aezeed"
-	"github.com/lightningnetwork/lnd/chanbackup"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/btcwallet"
+	"github.com/mraksoll4/lnd/aezeed"
+	"github.com/mraksoll4/lnd/chanbackup"
+	"github.com/mraksoll4/lnd/keychain"
+	"github.com/mraksoll4/lnd/lnrpc"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwallet/btcwallet"
 	"golang.org/x/net/context"
 )
 

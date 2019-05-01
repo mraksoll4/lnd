@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/mraksoll4/btcd/chaincfg"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/zpay32"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/lnrpc"
+	"github.com/mraksoll4/lnd/zpay32"
 )
 
 // CreateRPCInvoice creates an *lnrpc.Invoice from the *channeldb.Invoice.

@@ -17,8 +17,8 @@ import (
 	"github.com/mraksoll4/btcutil/gcs/builder"
 	"github.com/btcsuite/btcwallet/waddrmgr"
 	"github.com/mraksoll4/neutrino"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/queue"
+	"github.com/mraksoll4/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/queue"
 )
 
 const (

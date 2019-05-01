@@ -6,8 +6,8 @@ import (
 
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/watchtower/blob"
 )
 
 const (

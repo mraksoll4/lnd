@@ -17,17 +17,17 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/lightningnetwork/lnd/brontide"
-	"github.com/lightningnetwork/lnd/buffer"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/contractcourt"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/pool"
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/mraksoll4/lnd/brontide"
+	"github.com/mraksoll4/lnd/buffer"
+	"github.com/mraksoll4/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/contractcourt"
+	"github.com/mraksoll4/lnd/htlcswitch"
+	"github.com/mraksoll4/lnd/lnpeer"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/pool"
+	"github.com/mraksoll4/lnd/ticker"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 	"github.com/mraksoll4/btcd/txscript"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwallet"
 )
 
 // TestDetermineFeePerKw tests that given a fee preference, the

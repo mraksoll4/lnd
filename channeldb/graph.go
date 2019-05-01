@@ -19,7 +19,7 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 	"github.com/coreos/bbolt"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 	"github.com/btcsuite/btcwallet/wallet/txrules"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/lnwallet"
 )
 
 var (

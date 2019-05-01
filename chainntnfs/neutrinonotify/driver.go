@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/mraksoll4/neutrino"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/chainntnfs"
 )
 
 // createNewNotifier creates a new instance of the ChainNotifier interface

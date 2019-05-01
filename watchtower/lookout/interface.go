@@ -3,8 +3,8 @@ package lookout
 import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
+	"github.com/mraksoll4/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/watchtower/wtdb"
 )
 
 // Service abstracts the lookout functionality, supporting the ability to start

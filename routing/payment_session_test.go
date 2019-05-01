@@ -3,8 +3,8 @@ package routing
 import (
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 func TestRequestRoute(t *testing.T) {

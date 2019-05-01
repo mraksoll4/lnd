@@ -21,15 +21,15 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/htlcswitch"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/keychain"
+	"github.com/mraksoll4/lnd/lnpeer"
+	"github.com/mraksoll4/lnd/lnrpc"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 const (

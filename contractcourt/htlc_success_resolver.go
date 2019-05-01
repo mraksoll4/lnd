@@ -7,12 +7,12 @@ import (
 
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/sweep"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/lntypes"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/sweep"
 )
 
 // htlcSuccessResolver is a resolver that's capable of sweeping an incoming

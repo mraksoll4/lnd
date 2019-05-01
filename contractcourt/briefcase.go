@@ -9,9 +9,9 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/coreos/bbolt"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/lnwallet"
 )
 
 // ContractResolutions is a wrapper struct around the two forms of resolutions

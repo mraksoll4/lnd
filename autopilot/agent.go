@@ -12,7 +12,7 @@ import (
 	"github.com/mraksoll4/btcd/btcec"
 	"github.com/mraksoll4/btcutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 // Config couples all the items that an autopilot agent needs to function.

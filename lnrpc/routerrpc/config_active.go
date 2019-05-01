@@ -4,8 +4,8 @@ package routerrpc
 
 import (
 	"github.com/mraksoll4/btcd/chaincfg"
-	"github.com/lightningnetwork/lnd/macaroons"
-	"github.com/lightningnetwork/lnd/routing"
+	"github.com/mraksoll4/lnd/macaroons"
+	"github.com/mraksoll4/lnd/routing"
 )
 
 // Config is the main configuration file for the router RPC server. It contains

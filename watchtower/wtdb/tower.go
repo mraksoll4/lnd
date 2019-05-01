@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 // Tower holds the necessary components required to connect to a remote tower.

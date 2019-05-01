@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 // ChannelUpdateModifier is a closure that makes in-place modifications to an

@@ -7,7 +7,7 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/mraksoll4/lnd/lnwallet"
 
 	"github.com/btcsuite/btcwallet/chain"
 	"github.com/btcsuite/btcwallet/wallet"

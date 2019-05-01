@@ -9,7 +9,7 @@ import (
 	"github.com/mraksoll4/btcd/txscript"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/chainntnfs"
 )
 
 var (

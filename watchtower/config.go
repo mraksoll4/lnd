@@ -9,8 +9,8 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/tor"
-	"github.com/lightningnetwork/lnd/watchtower/lookout"
+	"github.com/mraksoll4/lnd/tor"
+	"github.com/mraksoll4/lnd/watchtower/lookout"
 )
 
 const (

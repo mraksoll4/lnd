@@ -6,12 +6,12 @@ import (
 
 	"github.com/mraksoll4/btcd/btcec"
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/chanbackup"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/contractcourt"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/mraksoll4/lnd/chanbackup"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/contractcourt"
+	"github.com/mraksoll4/lnd/keychain"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/shachain"
 )
 
 // chanDBRestorer is an implementation of the chanbackup.ChannelRestorer

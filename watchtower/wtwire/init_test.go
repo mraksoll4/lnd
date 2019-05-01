@@ -5,8 +5,8 @@ import (
 
 	"github.com/mraksoll4/btcd/chaincfg"
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/wtwire"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/watchtower/wtwire"
 )
 
 var (

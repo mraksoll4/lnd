@@ -3,7 +3,7 @@ package wtdb
 import (
 	"errors"
 
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/mraksoll4/lnd/watchtower/wtpolicy"
 )
 
 var (

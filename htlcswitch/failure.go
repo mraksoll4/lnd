@@ -6,8 +6,8 @@ import (
 	"io"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lightning-onion"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 // ForwardingError wraps an lnwire.FailureMessage in a struct that also

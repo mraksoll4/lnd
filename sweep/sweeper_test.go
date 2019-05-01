@@ -11,9 +11,9 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/mraksoll4/lnd/build"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/keychain"
 )
 
 var (

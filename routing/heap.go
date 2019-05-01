@@ -1,8 +1,8 @@
 package routing
 
 import (
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 // nodeWithDist is a helper struct that couples the distance from the current

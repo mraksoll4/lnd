@@ -12,7 +12,7 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcutil"
 	"github.com/mraksoll4/btcutil/bech32"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 const (

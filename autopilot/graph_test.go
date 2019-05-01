@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/autopilot"
+	"github.com/mraksoll4/lnd/autopilot"
 )
 
 // TestMedian tests the Median method.

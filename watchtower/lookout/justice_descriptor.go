@@ -9,9 +9,9 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 	"github.com/mraksoll4/btcutil/txsort"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/watchtower/blob"
+	"github.com/mraksoll4/lnd/watchtower/wtdb"
 )
 
 var (

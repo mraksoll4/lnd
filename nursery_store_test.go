@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/mraksoll4/lnd/channeldb"
 )
 
 // makeTestDB creates a new instance of the ChannelDB for testing purposes. A

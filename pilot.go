@@ -9,9 +9,9 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/autopilot"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/mraksoll4/lnd/autopilot"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/tor"
 )
 
 // validateAtplConfig is a helper method that makes sure the passed

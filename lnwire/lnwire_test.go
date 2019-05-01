@@ -19,7 +19,7 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/mraksoll4/lnd/tor"
 )
 
 var (

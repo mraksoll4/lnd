@@ -8,7 +8,7 @@ import (
 
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcwallet/chain"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/chainntnfs"
 )
 
 // UnsafeStart starts the notifier with a specified best height and optional

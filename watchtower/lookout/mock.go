@@ -8,7 +8,7 @@ import (
 
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/chainntnfs"
 )
 
 type MockBackend struct {

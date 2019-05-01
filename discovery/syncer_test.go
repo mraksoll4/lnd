@@ -9,7 +9,7 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg"
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 const (

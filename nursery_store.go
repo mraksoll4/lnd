@@ -8,7 +8,7 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/coreos/bbolt"
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/mraksoll4/lnd/channeldb"
 )
 
 //	              Overview of Nursery Store Storage Hierarchy

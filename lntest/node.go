@@ -25,9 +25,9 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/chanbackup"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/mraksoll4/lnd/chanbackup"
+	"github.com/mraksoll4/lnd/lnrpc"
+	"github.com/mraksoll4/lnd/macaroons"
 )
 
 var (

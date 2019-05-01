@@ -9,7 +9,7 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 
-	"github.com/lightningnetwork/lnd/input"
+	"github.com/mraksoll4/lnd/input"
 )
 
 // TestTxWeightEstimator tests that transaction weight estimates are calculated

@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing"
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/mraksoll4/lnd/lnpeer"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/routing"
+	"github.com/mraksoll4/lnd/ticker"
 )
 
 const (

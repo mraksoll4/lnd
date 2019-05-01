@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 // Conn is an implementation of net.Conn which enforces an authenticated key

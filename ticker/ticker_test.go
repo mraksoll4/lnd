@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/mraksoll4/lnd/ticker"
 )
 
 const interval = 50 * time.Millisecond

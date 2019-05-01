@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing"
-	"github.com/lightningnetwork/lnd/zpay32"
+	"github.com/mraksoll4/lnd/lnrpc"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/routing"
+	"github.com/mraksoll4/lnd/zpay32"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

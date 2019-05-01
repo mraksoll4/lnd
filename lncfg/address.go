@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/tor"
 )
 
 var (

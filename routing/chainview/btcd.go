@@ -12,7 +12,7 @@ import (
 	"github.com/mraksoll4/btcd/rpcclient"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/mraksoll4/lnd/channeldb"
 )
 
 // BtcdFilteredChainView is an implementation of the FilteredChainView

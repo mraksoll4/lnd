@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/keychain"
 )
 
 // Swapper is an interface that allows the chanbackup.SubSwapper to update the

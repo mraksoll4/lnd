@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/routing"
 )
 
 // TestValidationBarrierSemaphore checks basic properties of the validation

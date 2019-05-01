@@ -14,14 +14,14 @@ import (
 	"github.com/mraksoll4/btcutil"
 	"github.com/mraksoll4/btcutil/txsort"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/lookout"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtmock"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/mraksoll4/lnd/input"
+	"github.com/mraksoll4/lnd/keychain"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/watchtower/blob"
+	"github.com/mraksoll4/lnd/watchtower/lookout"
+	"github.com/mraksoll4/lnd/watchtower/wtdb"
+	"github.com/mraksoll4/lnd/watchtower/wtmock"
+	"github.com/mraksoll4/lnd/watchtower/wtpolicy"
 )
 
 const csvDelay uint32 = 144

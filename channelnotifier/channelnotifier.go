@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/subscribe"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/subscribe"
 )
 
 // ChannelNotifier is a subsystem which all active, inactive, and closed channel

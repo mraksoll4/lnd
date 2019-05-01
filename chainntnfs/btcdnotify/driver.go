@@ -6,7 +6,7 @@ import (
 
 	"github.com/mraksoll4/btcd/chaincfg"
 	"github.com/mraksoll4/btcd/rpcclient"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/chainntnfs"
 )
 
 // createNewNotifier creates a new instance of the ChainNotifier interface

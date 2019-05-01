@@ -21,16 +21,16 @@ import (
 
 	"github.com/mraksoll4/btcutil"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/chanbackup"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/discovery"
-	"github.com/lightningnetwork/lnd/htlcswitch/hodl"
-	"github.com/lightningnetwork/lnd/lncfg"
-	"github.com/lightningnetwork/lnd/lnrpc/signrpc"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/mraksoll4/lnd/build"
+	"github.com/mraksoll4/lnd/chanbackup"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/discovery"
+	"github.com/mraksoll4/lnd/htlcswitch/hodl"
+	"github.com/mraksoll4/lnd/lncfg"
+	"github.com/mraksoll4/lnd/lnrpc/signrpc"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/routing"
+	"github.com/mraksoll4/lnd/tor"
 )
 
 const (

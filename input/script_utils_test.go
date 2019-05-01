@@ -12,7 +12,7 @@ import (
 	"github.com/mraksoll4/btcd/txscript"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/mraksoll4/lnd/keychain"
 )
 
 // TestRevocationKeyDerivation tests that given a public key, and a revocation

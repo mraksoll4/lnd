@@ -1,4 +1,4 @@
-module github.com/lightningnetwork/lnd
+module github.com/mraksoll4/lnd
 
 require (
 	git.schwanenlied.me/yawning/bsaes.git v0.0.0-20180720073208-c0276d75487e // indirect
@@ -6,10 +6,10 @@ require (
 	github.com/NebulousLabs/go-upnp v0.0.0-20180202185039-29b680b06c82
 	github.com/Yawning/aez v0.0.0-20180114000226-4dad034d9db2
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
-	github.com/mraksoll4/btcd v0.0.0-20190410025418-9bfb2ca0346b
+	github.com/mraksoll4/btcd v1.0.0
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
-	github.com/mraksoll4/btcutil v0.0.0-20190316010144-3ac1210f4b38
-	github.com/btcsuite/btcwallet v0.0.0-20190327034548-8b90263a6190
+	github.com/mraksoll4/btcutil v1.0.0
+	github.com/btcsuite/btcwallet v1.0.0
 	github.com/btcsuite/fastsha256 v0.0.0-20160815193821-637e65642941
 	github.com/coreos/bbolt v1.3.2
 	github.com/davecgh/go-spew v1.1.1
@@ -29,10 +29,10 @@ require (
 	github.com/juju/version v0.0.0-20180108022336-b64dbd566305 // indirect
 	github.com/kkdai/bstream v0.0.0-20181106074824-b3251f7901ec
 	github.com/mraksoll4/neutrino v0.0.0-20190321023416-6dac90b98052
-	github.com/lightningnetwork/lightning-onion v0.0.0-20180605012408-ac4d9da8f1d6
-	github.com/lightningnetwork/lnd/queue v1.0.1
-	github.com/lightningnetwork/lnd/ticker v1.0.0
-	github.com/mraksoll4/ltcd v0.0.0-20190101042124-f37f8bf35796
+	github.com/mraksoll4/lightning-onion v1.0.0
+	github.com/mraksoll4/lnd/queue v1.0.1
+	github.com/mraksoll4/lnd/ticker v1.0.0
+	github.com/mraksoll4/ltcd v1.0.0
 	github.com/miekg/dns v0.0.0-20171125082028-79bfde677fa8
 	github.com/rogpeppe/fastuuid v0.0.0-20150106093220-6724a57986af // indirect
 	github.com/tv42/zbase32 v0.0.0-20160707012821-501572607d02
@@ -48,6 +48,6 @@ require (
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce // indirect
 )
 
-replace github.com/lightningnetwork/lnd/ticker => ./ticker
+replace github.com/mraksoll4/lnd/ticker => ./ticker
 
-replace github.com/lightningnetwork/lnd/queue => ./queue
+replace github.com/mraksoll4/lnd/queue => ./queue

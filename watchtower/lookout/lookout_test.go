@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/lookout"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/mraksoll4/lnd/chainntnfs"
+	"github.com/mraksoll4/lnd/watchtower/blob"
+	"github.com/mraksoll4/lnd/watchtower/lookout"
+	"github.com/mraksoll4/lnd/watchtower/wtdb"
+	"github.com/mraksoll4/lnd/watchtower/wtpolicy"
 )
 
 type mockPunisher struct {

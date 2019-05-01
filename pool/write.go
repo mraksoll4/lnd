@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/lightningnetwork/lnd/buffer"
+	"github.com/mraksoll4/lnd/buffer"
 )
 
 // Write is a worker pool specifically designed for sharing access to

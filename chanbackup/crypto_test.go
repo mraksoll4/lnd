@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/mraksoll4/lnd/keychain"
 )
 
 var (

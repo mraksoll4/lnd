@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/mraksoll4/btcutil"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing"
+	"github.com/mraksoll4/lnd/lnwire"
+	"github.com/mraksoll4/lnd/routing"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/mraksoll4/lnd/lnrpc"
 )
 
 const (

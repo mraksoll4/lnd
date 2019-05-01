@@ -10,9 +10,9 @@ import (
 	"github.com/mraksoll4/btcd/btcec"
 	"github.com/coreos/bbolt"
 
-	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	sphinx "github.com/mraksoll4/lightning-onion"
+	"github.com/mraksoll4/lnd/channeldb"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 const (

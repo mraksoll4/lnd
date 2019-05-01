@@ -8,7 +8,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/mraksoll4/lnd/keychain"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

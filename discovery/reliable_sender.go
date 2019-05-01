@@ -4,8 +4,8 @@ import (
 	"sync"
 
 	"github.com/mraksoll4/btcd/btcec"
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/mraksoll4/lnd/lnpeer"
+	"github.com/mraksoll4/lnd/lnwire"
 )
 
 // reliableSenderCfg contains all of necessary items for the reliableSender to
