@@ -9,8 +9,8 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
+	"github.com/mraksoll4/btcwallet/chain"
+	"github.com/mraksoll4/btcwallet/waddrmgr"
 	"github.com/mraksoll4/neutrino"
 	"github.com/mraksoll4/lnd/lnwallet"
 )

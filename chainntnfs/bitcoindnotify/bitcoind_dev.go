@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/chain"
+	"github.com/mraksoll4/btcwallet/chain"
 	"github.com/mraksoll4/lnd/chainntnfs"
 )
 

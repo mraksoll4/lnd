@@ -10,8 +10,8 @@ import (
 	"github.com/mraksoll4/btcd/btcjson"
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/mraksoll4/btcwallet/chain"
+	"github.com/mraksoll4/btcwallet/wtxmgr"
 	"github.com/mraksoll4/lnd/channeldb"
 )
 

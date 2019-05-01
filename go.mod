@@ -9,7 +9,7 @@ require (
 	github.com/mraksoll4/btcd v1.0.0
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
 	github.com/mraksoll4/btcutil v1.0.0
-	github.com/btcsuite/btcwallet v1.0.0
+	github.com/mraksoll4/btcwallet v1.0.0
 	github.com/btcsuite/fastsha256 v0.0.0-20160815193821-637e65642941
 	github.com/coreos/bbolt v1.3.2
 	github.com/davecgh/go-spew v1.1.1

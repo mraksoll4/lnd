@@ -14,7 +14,7 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/btcsuite/btcwallet/chain"
+	"github.com/mraksoll4/btcwallet/chain"
 	"github.com/mraksoll4/lnd/chainntnfs"
 	"github.com/mraksoll4/lnd/queue"
 )

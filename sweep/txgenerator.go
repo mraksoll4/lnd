@@ -8,7 +8,7 @@ import (
 	"github.com/mraksoll4/btcd/txscript"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
+	"github.com/mraksoll4/btcwallet/wallet/txrules"
 	"github.com/mraksoll4/lnd/input"
 	"github.com/mraksoll4/lnd/lnwallet"
 )

@@ -21,9 +21,9 @@ import (
 	"github.com/mraksoll4/btcd/txscript"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb" // Required to register the boltdb walletdb implementation.
+	"github.com/mraksoll4/btcwallet/chain"
+	"github.com/mraksoll4/btcwallet/walletdb"
+	_ "github.com/mraksoll4/btcwallet/walletdb/bdb" // Required to register the boltdb walletdb implementation.
 
 	"github.com/mraksoll4/neutrino"
 	"github.com/mraksoll4/lnd/channeldb"

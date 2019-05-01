@@ -16,8 +16,8 @@ import (
 	"github.com/mraksoll4/btcd/rpcclient"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	"github.com/btcsuite/btcwallet/chain"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb" // Required to auto-register the boltdb walletdb implementation.
+	"github.com/mraksoll4/btcwallet/chain"
+	_ "github.com/mraksoll4/btcwallet/walletdb/bdb" // Required to auto-register the boltdb walletdb implementation.
 	"github.com/mraksoll4/neutrino"
 	"github.com/mraksoll4/lnd/chainntnfs"
 	"github.com/mraksoll4/lnd/chainntnfs/bitcoindnotify"

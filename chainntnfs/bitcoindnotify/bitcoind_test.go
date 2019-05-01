@@ -10,7 +10,7 @@ import (
 
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/integration/rpctest"
-	"github.com/btcsuite/btcwallet/chain"
+	"github.com/mraksoll4/btcwallet/chain"
 	"github.com/mraksoll4/lnd/chainntnfs"
 	"github.com/mraksoll4/lnd/channeldb"
 )

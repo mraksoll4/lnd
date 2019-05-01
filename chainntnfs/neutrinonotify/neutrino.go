@@ -15,7 +15,7 @@ import (
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
 	"github.com/mraksoll4/btcutil/gcs/builder"
-	"github.com/btcsuite/btcwallet/waddrmgr"
+	"github.com/mraksoll4/btcwallet/waddrmgr"
 	"github.com/mraksoll4/neutrino"
 	"github.com/mraksoll4/lnd/chainntnfs"
 	"github.com/mraksoll4/lnd/queue"

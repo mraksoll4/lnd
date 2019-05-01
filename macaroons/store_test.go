@@ -11,7 +11,7 @@ import (
 
 	"github.com/mraksoll4/lnd/macaroons"
 
-	"github.com/btcsuite/btcwallet/snacl"
+	"github.com/mraksoll4/btcwallet/snacl"
 )
 
 func TestStore(t *testing.T) {

@@ -15,7 +15,7 @@ import (
 	"github.com/mraksoll4/btcd/chaincfg/chainhash"
 	"github.com/mraksoll4/btcd/wire"
 	"github.com/mraksoll4/btcutil"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	_ "github.com/mraksoll4/btcwallet/walletdb/bdb"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/mraksoll4/lnd/keychain"
 	"github.com/mraksoll4/lnd/lnwire"
