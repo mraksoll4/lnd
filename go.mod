@@ -45,7 +45,7 @@ require (
 	gopkg.in/macaroon-bakery.v2 v2.0.1
 	gopkg.in/macaroon.v2 v2.0.0
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce // indirect
-	gopkg.in/urfave/cli.v1 v1.20.0
+	gopkg.in/urfave/cli.v1
 )
 
 replace github.com/mraksoll4/lnd/ticker => ./ticker
