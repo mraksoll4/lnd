@@ -570,8 +570,8 @@ var (
 
 		litecoinMainnetGenesis: {
 			{
-				"192.168.56.128",
-				"192.168.56.128",
+				"localhost",
+				"localhost",
 			},
 		},
 	}
