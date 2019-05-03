@@ -570,8 +570,8 @@ var (
 
 		litecoinMainnetGenesis: {
 			{
-				"ltfn.nodes.lightning.directory",
-				"soa.nodes.lightning.directory",
+				"a2.node.mooo.com",
+				"a2.node.mooo.com",
 			},
 		},
 	}
