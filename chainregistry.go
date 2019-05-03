@@ -570,8 +570,8 @@ var (
 
 		litecoinMainnetGenesis: {
 			{
-				"node.ltfn.cf",
-				"soa.ltfn.cf",
+				"nodes.ltfn.cf",
+				"soa.nodes.ltfn.cf",
 			},
 		},
 	}
