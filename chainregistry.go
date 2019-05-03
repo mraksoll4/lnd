@@ -570,8 +570,8 @@ var (
 
 		litecoinMainnetGenesis: {
 			{
-				"a2.node.mooo.com",
-				"a2.node.mooo.com",
+				"node.ltfn.cf",
+				"soa.ltfn.cf",
 			},
 		},
 	}
