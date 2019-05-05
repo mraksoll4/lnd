@@ -571,7 +571,7 @@ var (
 		litecoinMainnetGenesis: {
 			{
 				"nodes.ltfn.cf",
-				"soa.ltfn.cf",
+				"soa.nodes.ltfn.cf",
 			},
 		},
 	}
