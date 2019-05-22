@@ -9,7 +9,7 @@ Download binnary from release tag's
 
 
 Wallet <br>
-<img src="Unpackwindows.png">
+<img src="donwloadwallet.png">
 
 
 lnd <br>
