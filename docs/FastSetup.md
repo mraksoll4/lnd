@@ -238,7 +238,7 @@ C:\lnd>lncli --network mainnet --chain litecoinfinance listpeers
 ```
 
 Wait 6 confirmation and channel by opened and now you can start create invoce , or pay invoice.
-
+```
 C:\lnd>lncli --network mainnet --chain litecoinfinance openchannel 0293795d46bd8b229455ccf1c3de8f290cbb5e4de71a3f60a5b26dab59ca03be34 1000000
 {
         "funding_txid": "adc2efef84fba2244fda8d57b24e597ed53cfad1cfc2b98306ddb00e8abb8d52"
