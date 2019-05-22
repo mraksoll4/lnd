@@ -4,17 +4,6 @@ https://github.com/litecoinfinance/lnd - Lightning Network Daemon
 
 https://github.com/litecoinfinance/litecoinfinance - Litecoin Finance full node (core wallet)
 
-
-Download binnary from release tag's
-
-
-Wallet <br>
-<img src="Downloadswallet.png">
-
-
-lnd <br>
-<img src="Downloadslnd.png">
-<br>
 Install wallet
 
 Go to data folder
@@ -69,18 +58,17 @@ Then unpack lnd binary files for your os.
 Example
 
 Windows
-<br>
-<img src="Unpackwindows.png">
-<br>
+```
+C:/lnd
+```
 Linux
-<br>
-<img src="Linuxunpack.png">
-<br>
+```
+/home/YourUserName/lnd
+```
 MAC OS
-<br>
-
-<br>
-
+```
+HDD/Users/YourUserName/lnd
+```
 Now we need go to default folder lnd and create conf file at that folder.
 
 
