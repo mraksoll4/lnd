@@ -29,7 +29,7 @@ Linux
 ```
 MAC OS 
 ```
-hdd/Users/YourUserName/Library/Application Support/litecoinfinance/ 
+HDD/Users/YourUserName/Library/Application Support/litecoinfinance/ 
 ```
 ( if you no see Library folder, at username folder click View > Show View Options > choise Show Library Folder )
 
@@ -94,7 +94,7 @@ Linux go to
 ```
 MAC OS go to
 ```
-hdd/Users/YourUserName/Library/Application Support/ and create folder lnd
+HDD/Users/YourUserName/Library/Application Support/ and create folder lnd
 ```
 ( if you no see Library folder, at username folder click View > Show View Options > choise Show Library Folder )
 
