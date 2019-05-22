@@ -9,7 +9,7 @@ Download binnary from release tag's
 
 
 Wallet <br>
-<img src="Downloadswallet.png">
+<img src="Unpackwindows.png">
 
 
 lnd <br>
@@ -68,7 +68,8 @@ Then unpack lnd binary files for your os.
 Example
 
 Windows
-
+<br>
+<img src="Unpackwindows.png">
 Linux
 
 MAC OS
