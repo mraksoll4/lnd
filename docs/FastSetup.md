@@ -20,13 +20,17 @@ Install wallet
 Go to data folder
 
 Windows
+```
 C:\Users\YourUserName\AppData\Roaming\litecoinfinance
-
+```
 Linux
+```
 /home/YourUserName/.litecoinfinance
-
+```
 MAC OS 
+```
 ~/Library/Application Support/litecoinfinance/
+```
 
 Create litecoinfinance.conf and put there this
 
