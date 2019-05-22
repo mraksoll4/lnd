@@ -116,3 +116,35 @@ litecoinfinanced.rpchost=127.0.0.1:39327 (ip:port for connect to RPC)
 alias=MyWindows_node ( name of your node )
 color=#D11711 ( color of node , there is RED)
 ```
+
+Now open 2 terminals depend at your system and go to folders with lnd and lncli.
+
+Run lnd node
+
+Windows
+```
+lnd and push enter
+```
+Linux
+```
+./lnd and push enter
+```
+MAC OS
+```
+./lnd and push enter
+```
+Now go to another terminal and put
+
+Windows
+```
+lncli --network mainnet --chain litecoinfinance create
+```
+Linux
+```
+./lncli --network mainnet --chain litecoinfinance create
+```
+MAC OS
+```
+./lncli --network mainnet --chain litecoinfinance create
+```
+Wait full sync node.
