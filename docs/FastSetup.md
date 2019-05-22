@@ -29,8 +29,9 @@ Linux
 ```
 MAC OS 
 ```
-~/Library/Application Support/litecoinfinance/
+hdd/Users/YourUserName/Library/Application Support/litecoinfinance/ 
 ```
+( if you no see Library folder, at username folder click View > Show View Options > choise Show Library Folder )
 
 Create litecoinfinance.conf and put there this
 
@@ -80,3 +81,19 @@ MAC OS
 
 <br>
 
+Now we need go to default folder lnd and create conf file at that folder.
+
+
+Windows go to 
+```
+C:\Users\YourUserName\AppData\Local\ and create folder lnd
+```
+Linux go to
+```
+/home/YourUserName/ and create folder lnd
+```
+MAC OS go to
+```
+hdd/Users/YourUserName/Library/Application Support/ and create folder lnd
+```
+( if you no see Library folder, at username folder click View > Show View Options > choise Show Library Folder )
