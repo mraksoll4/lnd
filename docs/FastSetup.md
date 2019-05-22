@@ -8,9 +8,9 @@ https://github.com/litecoinfinance/litecoinfinance - Litecoin Finance full node 
 Download binnary from release tag's
 
 
-*Wallet
+Wallet <br>
 <img src="Downloadswallet.png">
 
 
-*lnd
+lnd <br>
 <img src="Downloadslnd.png">
