@@ -90,10 +90,29 @@ C:\Users\YourUserName\AppData\Local\ and create folder lnd
 ```
 Linux go to
 ```
-/home/YourUserName/ and create folder lnd
+/home/YourUserName/ and create folder .lnd
 ```
 MAC OS go to
 ```
 hdd/Users/YourUserName/Library/Application Support/ and create folder lnd
 ```
 ( if you no see Library folder, at username folder click View > Show View Options > choise Show Library Folder )
+
+
+No create at that folder lnd.conf
+
+and put there 
+```
+litecoinfinance.active=1
+litecoinfinance.mainnet=1
+debuglevel=debug
+litecoinfinance.node=litecoinfinanced
+litecoinfinanced.rpcuser=user ( RPC user from litecoindfinance wallet)
+litecoinfinanced.rpcpass=password ( RPC password from litecoindfinance wallet)
+litecoinfinanced.zmqpubrawblock=tcp://127.0.0.1:28332
+litecoinfinanced.zmqpubrawtx=tcp://127.0.0.1:28333
+externalip=127.0.0.1:9735 ( external ip of your lnd node )
+litecoinfinanced.rpchost=127.0.0.1:39327 (ip:port for connect to RPC)
+alias=MyWindows_node ( name of your node )
+color=#D11711 ( color of node , there is RED)
+```
