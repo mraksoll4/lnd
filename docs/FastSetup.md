@@ -59,7 +59,7 @@ minrelaytxfee=0.00000001
 
 Now run wallet and wait full sync
 
-Them unpack lnd binary files for your os.
+Then unpack lnd binary files for your os.
 
 Example
 
