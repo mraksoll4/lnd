@@ -17,7 +17,7 @@ lnd <br>
 <br>
 Install wallet
 
-create at data folder litecoinfinance.conf and put there this
+Go to data folder
 
 Windows
 C:\Users\YourUserName\AppData\Roaming\litecoinfinance
@@ -27,6 +27,9 @@ Linux
 
 MAC OS 
 ~/Library/Application Support/litecoinfinance/
+
+Create litecoinfinance.conf and put there this
+
 
 rpcuser=user( make own)
 rpcpassword=password (make own)
