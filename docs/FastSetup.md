@@ -147,4 +147,5 @@ MAC OS
 ```
 ./lncli --network mainnet --chain litecoinfinance create
 ```
-Wait full sync node.
+choise password , bakup seed's and wait full sync node.
+
