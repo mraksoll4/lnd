@@ -30,7 +30,7 @@ MAC OS
 
 Create litecoinfinance.conf and put there this
 
-
+```
 rpcuser=user( make own)
 rpcpassword=password (make own)
 server=1
@@ -56,7 +56,7 @@ deprecatedrpc=signrawtransaction
 discardfee=0.00000001
 mintxfee=0.00000001
 minrelaytxfee=0.00000001
-
+```
 Now run wallet and wait full sync
 
 Then unpack lnd binary files for your os.
