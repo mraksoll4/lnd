@@ -9,7 +9,7 @@ Download binnary from release tag's
 
 
 Wallet <br>
-<img src="donwloadswallet.png">
+<img src="Downloadswallet.png">
 
 
 lnd <br>
