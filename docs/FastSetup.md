@@ -149,3 +149,98 @@ MAC OS
 ```
 choise password , bakup seed's and wait full sync node.
 
+Now we need gen new address so put 
+
+Windows
+```
+lncli --network mainnet --chain litecoinfinance newaddress p2wkh
+```
+Linux
+```
+./lncli --network mainnet --chain litecoinfinance newaddress p2wkh
+```
+MAC OS
+```
+./lncli --network mainnet --chain litecoinfinance newaddress p2wkh
+```
+Example
+
+```
+C:\lnd>lncli --network mainnet --chain litecoinfinance newaddress p2wkh
+{
+    "address": "ltfn1qlagrg0t2d9vstdrt7whr5v0xl9pcv2vs5n7nd3"
+}
+```
+
+and send to that address some coins
+
+After confirmation we can openfirst chanel - for check wallet balance use command 
+```
+C:\lnd>lncli --network mainnet --chain litecoinfinance walletbalance
+```
+Example
+```
+C:\lnd>lncli --network mainnet --chain litecoinfinance walletbalance
+{
+    "total_balance": "1098998871",
+    "confirmed_balance": "1098998871",
+    "unconfirmed_balance": "0"
+}
+```
+
+For open chanel use command 
+```
+lncli --network mainnet --chain litecoinfinance openchannel 0293795d46bd8b229455ccf1c3de8f290cbb5e4de71a3f60a5b26dab59ca03be34 1000000
+```
+i was choise random node from peers by 
+```
+lncli --network mainnet --chain litecoinfinance listpeers
+```
+```
+C:\lnd>lncli --network mainnet --chain litecoinfinance listpeers
+{
+    "peers": [
+        {
+            "pub_key": "036fdd52f59fe8a82481d0abd5f9979d2a7fc3c8adb860cd76451ddd2152a9bb39",
+            "address": "168.235.67.237:9735",
+            "bytes_sent": "3495",
+            "bytes_recv": "2782",
+            "sat_sent": "0",
+            "sat_recv": "0",
+            "inbound": false,
+            "ping_time": "117687",
+            "sync_type": "ACTIVE_SYNC"
+        },
+        {
+            "pub_key": "02ffb92d773a09dd0add352a71c83937d56b0764f561a606fbc3460ad941b5b56e",
+            "address": "168.235.67.167:9735",
+            "bytes_sent": "3168",
+            "bytes_recv": "2544",
+            "sat_sent": "0",
+            "sat_recv": "0",
+            "inbound": false,
+            "ping_time": "117646",
+            "sync_type": "ACTIVE_SYNC"
+        },
+        {
+            "pub_key": "0293795d46bd8b229455ccf1c3de8f290cbb5e4de71a3f60a5b26dab59ca03be34",
+            "address": "107.191.111.59:9735",
+            "bytes_sent": "2801",
+            "bytes_recv": "2692",
+            "sat_sent": "0",
+            "sat_recv": "0",
+            "inbound": false,
+            "ping_time": "128657",
+            "sync_type": "ACTIVE_SYNC"
+        }
+    ]
+}
+```
+
+Wait 6 confirmation and channel by opened and now you can start create invoce , or pay invoice.
+
+C:\lnd>lncli --network mainnet --chain litecoinfinance openchannel 0293795d46bd8b229455ccf1c3de8f290cbb5e4de71a3f60a5b26dab59ca03be34 1000000
+{
+        "funding_txid": "adc2efef84fba2244fda8d57b24e597ed53cfad1cfc2b98306ddb00e8abb8d52"
+}
+```
